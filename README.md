@@ -30,10 +30,6 @@ Contributions are welcome! If you have any ideas for new features or improvement
     Push to the branch (git push origin feature/YourFeature).
     Create a new Pull Request.
 
-License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-Contact
 
 For any inquiries or issues, please reach out to Gaurav.
 
