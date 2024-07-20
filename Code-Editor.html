@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link of the style Sheet of the code editior -->
+    <link rel="stylesheet" href="Code-Editor.css">
+
+    <!-- link of the js to use the icon for the language icon to make the greate understanding -->
+    <script src="https://kit.fontawesome.com/08c12b2dda.js" crossorigin="anonymous"></script>
+    <title>BLACK EYE</title>
+</head>
+
+<body>
+    <H1 class="animated-heading">CODE EYE</H1>
+
+    <!-- Main Container for the code editior which hold the all elements -->
+    <div class="container">
+        <div class="left">
+             <!-- Teaxtarea for the html language -->
+            <label ><i class="fa-brands fa-html5">HTML</i></label>
+            <textarea id="html-code" onkeyup="run()"></textarea>
+
+            <!-- Teaxtarea for the Css language -->
+            <label ><i class="fa-brands fa-css3">CSS</i></label>
+            <textarea id="css-code" onkeyup="run()"></textarea>
+
+             <!-- Teaxtarea for the JavaScript language -->
+            <label ><i class="fa-brands fa-js">Js </i></label>
+            <textarea id="js-code" onkeyup="run()"></textarea>
+        </div>
+        
+        <!-- Output area for the code output -->
+        <div class="Right">
+            <label id="out-lab"><i class="fa-solid fa-play"></i>Run</label>
+            <iframe id="output"></iframe>
+        </div>
+    </div>
+     <!-- Source of the Javascript file -->
+    <script src="Code-Editor.js"></script>
+</body>
+
+</html>
