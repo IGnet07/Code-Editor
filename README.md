@@ -25,8 +25,8 @@
 <h2>Installation</h2>
 <ol>
   <li>Clone the repository:
-    <pre><code>git clone https://github.com/yourusername/live-code-editor.git
-cd live-code-editor</code></pre>
+    <pre><code>git clone https://github.com/IGnet07/Code-Editor.git
+cd Code-Editor</code></pre>
   </li>
   <li>Open the <code>index.html</code> file in your web browser to start using the live code editor.</li>
 </ol>
